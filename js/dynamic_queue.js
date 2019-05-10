@@ -39,8 +39,8 @@ class DynamicQueue{
     isEmpty() {
         return this.tail===null;
     }
-    size() {
-        return this.length;
+    size() { // ver tamanho do array
+        return this.length; // retornando o tamanho do array
     }
     clear() {
         this.tail= this.head=null;
